@@ -99,40 +99,37 @@ form button:hover {
 </head>
 <body>
 <div class="hero">
-        <h1>Welcome to  Task Manager</h1>
-
-    
-
-    </div>
-    <header>
-        <nav>
-            <ul>
+    <h1>Welcome to Task Manager</h1>
+</div>
+<header>
+    <nav>
+        <ul>
             <li><a href="dashboard.php">Dashboard</a></li>
-                <li><a href="about.php">About Us</a></li>
-            </ul>
-        </nav>
-    </header>
+            <li><a href="about.php">About Us</a></li>
+        </ul>
+    </nav>
+</header>
 
-
-    <div class="container">
-        <h2>New Task</h2>
-        <form id="task-form">
-            <div class="form-group">
-                <label for="task-name">Task Name:</label>
-                <input type="text" id="task-name" required>
-            </div>
-            <div class="form-group">
-                <label for="task-description">Description:</label>
-                <textarea id="task-description" required></textarea>
-            </div>
-            <button type="submit">Add Task</button>
-        </form>
-        <div class="task-list">
-            <h2>Task List</h2>
-            <ul id="task-list"></ul>
+<div class="container">
+    <h2>New Task</h2>
+    <form id="task-form">
+        <div class="form-group">
+            <label for="task-name">Task Name:</label>
+            <input type="text" id="task-name" required>
         </div>
+        <div class="form-group">
+            <label for="task-description">Description:</label>
+            <textarea id="task-description" required></textarea>
+        </div>
+        <button type="submit">Add Task</button>
+    </form>
+    <div class="task-list">
+        <h2>Task List</h2>
+        <ul id="task-list"></ul>
     </div>
+</div>
 
-    <script src="script.js"></script>
+
+
 </body>
 </html>
